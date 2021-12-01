@@ -21,7 +21,7 @@ on:
 name: Build and Deploy to Cloud Run
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT }}
-  SERVICE: nginx-STKS
+  SERVICE: nginx-stks
   REGION: europe-west1
 
 jobs:
