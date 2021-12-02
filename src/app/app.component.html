@@ -3,9 +3,10 @@
 <div class="content">
   <router-outlet></router-outlet>
 </div>
-
-
-<div>{{ 'HELLO' | translate:param }}</div>
-
-
 -->
+
+<div>{{ 'accueil.bonjour' | translate }}</div>
+
+<button (click)="translate.use('en-UK')">en-UK</button>
+<button (click)="translate.use('fr-FR')">fr-FR</button>
+

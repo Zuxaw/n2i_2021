@@ -12,9 +12,7 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class AppComponent {
 
-  param = {value: 'world'};
-
-  constructor(translate: TranslateService){
+  constructor(private translate: TranslateService){
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
@@ -27,13 +25,19 @@ export class AppComponent {
       measurementId: "G-49L9RG606J"
     };
 
+
+
     // this language will be used as a fallback when a translation isn't found in the current language
     translate.setDefaultLang('en');
 
     // the lang to use, if the lang isn't available, it will use the current loader to get them
-    translate.use('en');
+    translate.use('fr');
 
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+  }
+
+  useLanguage(language: string): void {
+    this.translate.use(language);
   }
 }
