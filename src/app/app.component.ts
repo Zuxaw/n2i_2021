@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import firebase from 'firebase/compat/app';
+import {TranslateService} from '@ngx-translate/core';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -11,7 +12,9 @@ import firebase from 'firebase/compat/app';
 })
 export class AppComponent {
 
-  constructor(){
+  param = {value: 'world'};
+
+  constructor(translate: TranslateService){
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
@@ -23,6 +26,13 @@ export class AppComponent {
       appId: "1:538513952885:web:732cc8292492924b5ba83c",
       measurementId: "G-49L9RG606J"
     };
+
+    // this language will be used as a fallback when a translation isn't found in the current language
+    translate.setDefaultLang('en');
+
+    // the lang to use, if the lang isn't available, it will use the current loader to get them
+    translate.use('en');
+
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   }
