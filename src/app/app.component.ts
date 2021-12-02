@@ -21,7 +21,8 @@ export class AppComponent {
       storageBucket: "n2i-2021-a888e.appspot.com",
       messagingSenderId: "145062928126",
       appId: "1:145062928126:web:66c6c4969d522e2717cfaf",
-      measurementId: "G-9LNBDN6QZ7"
+      measurementId: "G-9LNBDN6QZ7",
+      databaseURL: "https://n2i-2021-a888e-default-rtdb.europe-west1.firebasedatabase.app/"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
