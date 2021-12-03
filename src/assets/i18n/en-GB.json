@@ -39,5 +39,14 @@
 		"inscription": "Register",
 		"mdp": "Password",
 		"ravi-accueil": "Help us to better identify sea rescue"
-	}
+	},
+  "contact": {
+    "nous-contacter": "Contact us !",
+    "contact-admin": "Contact administrators",
+    "nom": "Name",
+    "email": "E-mail",
+    "message": "Message",
+    "envoyer": "Send",
+    "request-registered": "Your request has been taken into account"
+  }
 }
