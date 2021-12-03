@@ -1,17 +1,24 @@
 <div class="container">
-  <div class="in">
-		<div class="contact-box">
-			<div class="right" *ngIf="!selected">
-				<h2>Nous contacter</h2>
-				<input required type="text" class="field" placeholder="Votre nom">
-				<input required type="text" class="field" placeholder="Votre mail">
-				<input type="text" class="field" placeholder="Téléphone">
-				<textarea required placeholder="Votre demande" class="field"  style="resize: none;"></textarea>
-				<button class="btn" (click)="onClick()">Envoyer</button>
-			</div>
-      <div class="right" *ngIf="selected">
-				<h2>Votre demande à été pris en compte</h2>
-			</div>
-		</div>
-	</div>
+  <div class="sign" *ngIf="!selected">
+      <h2>Nous contacter</h2>
+      <p>Contacter les administrateurs</p>
+      <form *ngIf="!selected">
+          <div class="form-box" >
+            <label for="Message">Nom</label>
+    				<input required type="text" class="field" placeholder="Votre nom">
+            <label for="Message">Mail</label>
+            <input required type="text" class="field" placeholder="Votre mail">
+          </div>
+          <div class="form-box">
+            <label for="Message">Message</label>
+            <textarea required placeholder="Votre demande" class="field"  style="resize: none;"></textarea>
+          </div>
+          <button type="submit" (click)="onClick()">Envoyer</button>
+      </form>
+  </div>
+  <div class="sign" *ngIf="selected">
+    <div class="form">
+      <h3>Votre demande à été pris en compte</h3>
+    </div>
+  </div>
 </div>
