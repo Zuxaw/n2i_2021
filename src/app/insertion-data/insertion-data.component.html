@@ -5,7 +5,7 @@
             <option value="boat">Bateau</option>
             <option value="lifeguard">Sauveteur</option>
             <option value="people">Personne</option>
-            <option value="people">Événement</option>
+            <option value="event">Événement</option>
         </select>
         <div class="boat" *ngIf="mod === 'boat'">
             <div class="form-group">
@@ -22,6 +22,99 @@
             </div>
         </div>
 
-        <button type="submit" class="submit">Soumettre</button>
+        <div class="lifeguard" *ngIf="mod === 'lifeguard'">
+          <div class="form-group">
+              <label for="national-id-card-number">Numéro CNI</label>
+              <input type="text" class="form-control" id="national-id-card-number">
+          </div>
+          <div class="form-group">
+              <label for="carte-vitale-number">Numéro de carte vitale</label>
+              <input type="text" class="form-control" id="carte-vitale-number">
+          </div>
+          <div class="form-group">
+              <label for="bnssa-number">Numéro BNSSA</label>
+              <input type="text" class="form-control" id="bnssa-number">
+          </div>
+          <div class="form-group">
+              <label for="first-name">Prénom</label>
+              <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="form-group">
+              <label for="last-name">Nom</label>
+              <input type="text" class="form-control" id="last-name">
+          </div>
+          <div class="form-group">
+              <label for="age">Âge</label>
+              <input type="text" class="form-control" id="age">
+          </div>
+          <div class="form-group">
+              <label for="phone-number">Numéro de téléphone</label>
+              <input type="text" class="form-control" id="phone-number">
+          </div>
+          <div class="form-group">
+              <label for="mail">Adresse email</label>
+              <input type="text" class="form-control" id="mail">
+          </div>
+        </div>
+
+        <div class="boat" *ngIf="mod === 'people'">
+          <div class="form-group">
+            <label for="first-name">Prénom</label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="form-group">
+              <label for="last-name">Nom</label>
+              <input type="text" class="form-control" id="last-name">
+          </div>
+          <div class="form-group">
+              <label for="birthdate">Date de naissance</label>
+              <input type="text" class="form-control" id="birthdate">
+          </div>
+          <div class="form-group">
+              <label for="birthplace">Lieu de naissance</label>
+              <input type="text" class="form-control" id="birthplace">
+          </div>
+          <div class="form-group">
+              <label for="physical-description">Description physique</label>
+              <input type="text" class="form-control" id="physical-description">
+          </div>
+          <div class="form-group">
+              <label for="missing-date">Disparu depuis</label>
+              <input type="text" class="form-control" id="missing-date">
+          </div>
+          <div class="form-group">
+              <label for="found-date">Retrouvée le</label>
+              <input type="text" class="form-control" id="found-date">
+          </div>
+        </div>
+
+        <div class="boat" *ngIf="mod === 'event'">
+          <div class="form-group">
+              <label for="event-date">Date</label>
+              <input type="text" class="form-control" id="event-date">
+          </div>
+          <div class="form-group">
+              <label for="event-time">Heure</label>
+              <input type="text" class="form-control" id="event-time">
+          </div>
+          <div class="form-group">
+              <label for="lifeguards-team">Équipe de sauveteurs</label>
+              <input type="text" class="form-control" id="lifeguards-team">
+          </div>
+          <div class="form-group">
+              <label for="identified-people">Personnes identifiées</label>
+              <input type="text" class="form-control" id="identified-people">
+          </div>
+          <div class="form-group">
+              <label for="mission-result">Bilan de mission</label>
+              <input type="text" class="form-control" id="mission-result">
+          </div>
+          <div class="form-group">
+              <label for="complete-mission-log">Rapport complet de mission</label>
+              <input type="text" class="form-control" id="complete-mission-log">
+          </div>
+        </div>
+
+        <button type="submit" class="submit" (click)="this.oldMod = this.mod;">Soumettre</button>
     </form>
 </div>
