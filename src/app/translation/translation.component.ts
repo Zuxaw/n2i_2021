@@ -22,7 +22,13 @@ export class TranslationComponent implements OnInit {
     "vi",
     "th",
     "tr",
-    "ro"
+    "ro",
+    "it",
+    "el",
+    "he",
+    "ko",
+    "nl",
+    "ar-EG"
   ]
 
   constructor(private translate: TranslateService) { }

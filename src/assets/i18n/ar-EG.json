@@ -1,0 +1,43 @@
+{
+	"contact": {
+		"contact-admin": "اتصل بالمسؤولين",
+		"email": "البريد الإلكتروني",
+		"envoyer": "إرسال",
+		"message": "رسالة",
+		"nom": "اسم",
+		"nous-contacter": "اتصل بنا !",
+		"request-registered": "لقد تم أخذ طلبك بعين الاعتبار"
+	},
+	"header": {
+		"accueil": "الصفحة الرئيسية",
+		"connexion": "تسجيل الدخول",
+		"contact": "اتصل",
+		"deconnexion": "تسجيل خروج",
+		"inscription": "سجل",
+		"insertion": "إدراج",
+		"langage": "لغة",
+		"modification": "تعديل",
+		"recherche": "المتصفح",
+		"validation": "التحقق من صحة"
+	},
+	"home": {
+		"enregistrez-vous": "سجل الان !",
+		"message-accueil": "شارك الآن وساعدنا على إثراء تراثنا التاريخي. اعمل مغامرة الإنقاذ الخاصة بك مع تطبيقنا. تساعدنا جهودك في إثراء قاعدة بياناتنا حول عمليات الإنقاذ البحري."
+	},
+	"sign-in": {
+		"connexion": "صلة",
+		"deja-compte": "أنا مسجل بالفعل",
+		"email": "البريد الإلكتروني",
+		"mdp": "كلمه السر",
+		"pas-de-compte": "لا يوجد لديك حساب ؟",
+		"ravi-revoir": "جميل ان اراك مرة اخرى"
+	},
+	"sign-up": {
+		"creer-compte": "انشئ حساب",
+		"deja-compte": "لديك حساب بالفعل ؟",
+		"email": "البريد الإلكتروني",
+		"inscription": "تسجيل",
+		"mdp": "كلمه السر",
+		"ravi-accueil": "ساعدنا في التعرف بشكل أفضل على الإنقاذ البحري"
+	}
+}
