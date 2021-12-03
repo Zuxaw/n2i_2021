@@ -1,0 +1,43 @@
+{
+	"contact": {
+		"contact-admin": "Contatta gli amministratori",
+		"email": "E-mail",
+		"envoyer": "inviare",
+		"message": "Messaggio",
+		"nom": "Nome",
+		"nous-contacter": "Contattaci !",
+		"request-registered": "La tua richiesta è stata presa in considerazione"
+	},
+	"header": {
+		"accueil": "Casa",
+		"connexion": "registrati",
+		"contact": "Contatto",
+		"deconnexion": "Disconnettersi",
+		"inscription": "Iscriviti",
+		"insertion": "inserire",
+		"langage": "linguaggio",
+		"modification": "Modifica",
+		"recherche": "Browser",
+		"validation": "Validazione"
+	},
+	"home": {
+		"enregistrez-vous": "Iscriviti ora !",
+		"message-accueil": "Partecipa ora e aiutaci ad arricchire il nostro patrimonio storico. Lavora la tua avventura di salvataggio con la nostra app. I tuoi sforzi ci aiutano ad arricchire il nostro database sui salvataggi in mare."
+	},
+	"sign-in": {
+		"connexion": "Connessione",
+		"deja-compte": "Sono già registrato",
+		"email": "E-mail",
+		"mdp": "Parola d'ordine",
+		"pas-de-compte": "Non hai un account?",
+		"ravi-revoir": "Che bello rivederti"
+	},
+	"sign-up": {
+		"creer-compte": "Crea un account",
+		"deja-compte": "Hai già un account ?",
+		"email": "E-mail",
+		"inscription": "Registrare",
+		"mdp": "Parola d'ordine",
+		"ravi-accueil": "Aiutaci a identificare meglio il soccorso in mare"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"contact": {
+		"contact-admin": "צור קשר עם מנהלי מערכת",
+		"email": "דואר אלקטרוני",
+		"envoyer": "שלח",
+		"message": "הודעה",
+		"nom": "שם",
+		"nous-contacter": "צור קשר !",
+		"request-registered": "הבקשה שלך נלקחה בחשבון"
+	},
+	"header": {
+		"accueil": "בית",
+		"connexion": "להתחבר",
+		"contact": "איש קשר",
+		"deconnexion": "להתנתק",
+		"inscription": "הירשם",
+		"insertion": "לְהַכנִיס",
+		"langage": "שפה",
+		"modification": "שינוי",
+		"recherche": "דפדפן",
+		"validation": "אימות"
+	},
+	"home": {
+		"enregistrez-vous": "הירשם עכשיו !",
+		"message-accueil": "התחברו עכשיו ועזרו לנו להעשיר את המורשת ההיסטורית שלנו. עשה את הרפתקת ההצלה שלך עם האפליקציה שלנו. המאמצים שלך עוזרים לנו להעשיר את מסד הנתונים שלנו בנושאי חילוץ ימי."
+	},
+	"sign-in": {
+		"connexion": "חיבור",
+		"deja-compte": "אני כבר רשום",
+		"email": "דואר אלקטרוני",
+		"mdp": "סיסמה",
+		"pas-de-compte": "אין לך חשבון?",
+		"ravi-revoir": "נחמד לראותך שוב"
+	},
+	"sign-up": {
+		"creer-compte": "צור חשבון",
+		"deja-compte": "כבר יש לך חשבון ?",
+		"email": "דואר אלקטרוני",
+		"inscription": "הירשם",
+		"mdp": "סיסמה",
+		"ravi-accueil": "עזרו לנו לזהות טוב יותר חילוץ ימי"
+	}
+}

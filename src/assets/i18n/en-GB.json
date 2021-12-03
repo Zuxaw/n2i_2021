@@ -1,4 +1,13 @@
 {
+	"contact": {
+		"contact-admin": "Contact administrators",
+		"email": "E-mail",
+		"envoyer": "Send",
+		"message": "Message",
+		"nom": "Name",
+		"nous-contacter": "Contact us !",
+		"request-registered": "Your request has been taken into account"
+	},
 	"header": {
 		"accueil": "Home",
 		"connexion": "Sign-In",
