@@ -42,7 +42,11 @@ export class HeaderComponent implements OnInit {
   }
 
   onSelect(name: string){
-    this.selected= name;
+    if(this.translation_selected && name === "language"){
+      this.selected= null;
+    }else{
+      this.selected= name;
+    }
   }
 
   onSelectTranslation(){
