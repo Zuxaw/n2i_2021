@@ -5,6 +5,20 @@ body{
     font-family: 'Cascadia Code', sans-serif;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: darkgrey;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
 @media (max-width: 640px) {
     body{
         zoom: 0.4;
