@@ -1,9 +1,17 @@
 <nav class="nav-bar">
-<<<<<<< HEAD
     <li (mouseover)="onSelect('home')" (mouseout)="onSelect(null)">
         <a routerLink="home" routerLinkActive="active"><i class="fas fa-home"></i></a>
         <p *ngIf="selected==='home'" class="description">Accueil</p>
     </li>
+    <!-- translation module /begins-->
+    <li (mouseover)="onSelect('language')" (mouseout)="onSelect(null)" (click)="onSelectTranslation()">
+      <a><i class="fas fa-language"></i></a>
+      <p *ngIf="selected==='language'" class="description" >Langage</p>
+      <p *ngIf="translation_selected" class="description translation">
+        <app-translation></app-translation>
+      </p>
+    </li>
+  <!-- translation module /ends-->
     <li (mouseover)="onSelect('search')" (mouseout)="onSelect(null)">
         <a routerLink="search" routerLinkActive="active"><i class="fas fa-search"></i></a>
         <p *ngIf="selected==='search'" class="description">Recherche</p>
@@ -38,33 +46,4 @@
             <p *ngIf="selected==='LogOut'" class="description logout">Deconnection</p>
         </li>
     </div>
-=======
-  <li (mouseover)="onSelect('home')" (mouseout)="onSelect(null)">
-      <a routerLink="home" routerLinkActive="active"><i class="fas fa-home"></i></a>
-      <p *ngIf="selected==='home'" class="description" >Home</p>
-  </li>
-<!-- translation module /begins-->
-  <li (mouseover)="onSelect('language')" (mouseout)="onSelect(null)" (click)="onSelectTranslation()">
-    <a routerLink="language" routerLinkActive="active"><i class="fas fa-language"></i></a>
-    <p *ngIf="selected==='language'" class="description" >Langage</p>
-    <p *ngIf="translation_selected" class="description translation">
-      <app-translation></app-translation>
-    </p>
-  </li>
-<!-- translation module /ends-->
-  <div class="bot">
-      <li (mouseover)="onSelect('signUp')" (mouseout)="onSelect(null)" *ngIf="!isAuth">
-          <a routerLink="auth/signup" routerLinkActive="active"><i class="fas fa-user-plus"></i></a>
-          <p *ngIf="selected==='signUp'" class="description">SignUp</p>
-      </li>
-      <li (mouseover)="onSelect('signIn')" (mouseout)="onSelect(null)" *ngIf="!isAuth">
-          <a routerLink="auth/signin" routerLinkActive="active"><i class="fas fa-sign-in-alt"></i></a>
-          <p *ngIf="selected==='signIn'" class="description">SignIn</p>
-      </li>
-      <li (mouseover)="onSelect('LogOut')" (mouseout)="onSelect(null)" *ngIf="isAuth">
-          <a (click)="onLogOut()"><i class="fas fa-sign-out-alt"></i></a>
-          <p *ngIf="selected==='LogOut'" class="description logout">LogOut</p>
-      </li>
-  </div>
->>>>>>> deffohn
 </nav>
