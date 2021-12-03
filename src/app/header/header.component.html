@@ -24,7 +24,7 @@
         <a routerLink="edit" routerLinkActive="active"><i class="fas fa-edit"></i></a>
         <p *ngIf="selected==='edit'" class="description">Modification</p>
     </li>
-    <li (mouseover)="onSelect('validate')" (mouseout)="onSelect(null)">
+    <li (mouseover)="onSelect('validate')" (mouseout)="onSelect(null)" *ngIf="isAdmin">
         <a routerLink="validate" routerLinkActive="active"><i class="fas fa-check"></i></a>
         <p *ngIf="selected==='validate'" class="description">Validation</p>
     </li>
