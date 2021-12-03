@@ -1,18 +1,18 @@
 <div class="container">
     <div class="sign">
-        <h2>Créer un compte</h2>
-        <p>Aidez nous à mieux répertorier le sauvetage en mer</p>
+        <h2>{{ 'sign-up.creer-compte' | translate }}</h2>
+        <p>{{ 'sign-up.ravi-accueil' | translate }}</p>
         <form [formGroup]="signUpForm"  (ngSubmit)="onSubmit()">
             <div class="form-box">
-                <label for="email">Email</label>
+                <label for="email">{{ 'sign-up.email' | translate }}</label>
                 <input type="text" id="email" class="form-control" formControlName="email">
             </div>
             <div class="form-box">
-                <label for="password">Mot de passe</label>
+                <label for="password">{{ 'sign-up.mdp' | translate }}</label>
                 <input type="password" id="password" class="form-control" formControlName="password">
             </div>
-            <button type="submit">Inscription</button>
-            <a routerLink="/auth/signin">Vous avez déjà un compte ?</a>
+            <button type="submit">{{ 'sign-up.inscription' | translate }}</button>
+            <a routerLink="/auth/signin">{{ 'sign-up.deja-compte' | translate }}</a>
         </form>
         <p class="text-danger">{{ errorMessage }}</p>
     </div>
