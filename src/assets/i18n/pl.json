@@ -1,0 +1,34 @@
+{
+	"header": {
+		"accueil": "Dom",
+		"connexion": "Zaloguj",
+		"contact": "kontakt",
+		"deconnexion": "Wyloguj",
+		"inscription": "Zapisz się",
+		"insertion": "Wstawić",
+		"langage": "jezyk",
+		"modification": "Modyfikacja",
+		"recherche": "Przeglądarka",
+		"validation": "Uprawomocnienie"
+	},
+	"home": {
+		"enregistrez-vous": "Zarejestruj się teraz !",
+		"message-accueil": "Zaangażuj się już teraz i pomóż nam wzbogacić nasze dziedzictwo historyczne. Przeprowadź własną przygodę ratunkową z naszą aplikacją. Wasze starania pomagają nam wzbogacić naszą bazę danych o ratownictwie morskim."
+	},
+	"sign-in": {
+		"connexion": "Połączenie",
+		"deja-compte": "jestem już zarejestrowany",
+		"email": "E-mail",
+		"mdp": "Hasło",
+		"pas-de-compte": "Nie masz konta ?",
+		"ravi-revoir": "Miło cię znowu widzieć"
+	},
+	"sign-up": {
+		"creer-compte": "Utwórz konto",
+		"deja-compte": "Posiadasz już konto ?",
+		"email": "E-mail",
+		"inscription": "Zapisz się",
+		"mdp": "Hasło",
+		"ravi-accueil": "Pomóż nam lepiej zidentyfikować ratownictwo morskie"
+	}
+}
