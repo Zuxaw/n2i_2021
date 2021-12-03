@@ -1,0 +1,26 @@
+{
+  "header":{
+    "accueil": "Home",
+    "langage": "Language",
+    "recherche": "Browser",
+    "insertion": "Insert",
+    "modification": "Modification",
+    "validation": "Validation",
+    "connexion": "Sign-In",
+    "inscription": "Sign-Up",
+    "contact": "Contact",
+    "deconnexion": "Log-Out"
+  },
+  "home":{
+    "message-accueil": "Get involved now and help us enrich our historical heritage. Work your own rescue adventure with our app. Your efforts help us to enrich our database on sea rescues.",
+    "enregistrez-vous": "Register now !"
+  },
+  "sign-in":{
+    "deja-compte": "I'm already registered",
+    "ravi-revoir": "Nice to see you again",
+    "email": "E-mail",
+    "mdp": "Password",
+    "connexion": "Connection",
+    "pas-de-compte": "You do not have an account ?"
+  }
+}
