@@ -1,4 +1,19 @@
 {
+	"browsing-data": {
+		"coming-soon": "Surfen kommt bald"
+	},
+	"contact": {
+		"contact-admin": "Administratoren kontaktieren",
+		"email": "Email",
+		"envoyer": "Senden",
+		"message": "Nachricht",
+		"nom": "Name",
+		"nous-contacter": "Kontaktiere uns !",
+		"request-registered": "Ihre Anfrage wurde berücksichtigt"
+	},
+	"edit-data": {
+		"coming-soon": "Demnächst"
+	},
 	"header": {
 		"accueil": "Zuhause",
 		"connexion": "Anmelden",
@@ -15,6 +30,36 @@
 		"enregistrez-vous": "Jetzt registrieren !",
 		"message-accueil": "Machen Sie jetzt mit und helfen Sie uns, unser historisches Erbe zu bereichern. Arbeiten Sie Ihr eigenes Rettungsabenteuer mit unserer App. Ihre Bemühungen helfen uns, unsere Datenbank zur Seenotrettung zu bereichern."
 	},
+	"insertion": {
+		"age": "Alter",
+		"birthdate": "Geburtstag",
+		"birthplace": "Geburtsort",
+		"bnssa-number": "BNSSA-Nummer",
+		"brand": "Marke",
+		"capacity": "Kapazität",
+		"complete-mission-log": "Komplettes Missionsprotokoll",
+		"event": "Veranstaltung",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
 	"sign-in": {
 		"connexion": "Verbindung",
 		"deja-compte": "Ich bin bereits registriert",
@@ -30,14 +75,5 @@
 		"inscription": "Anmelden",
 		"mdp": "Passwort",
 		"ravi-accueil": "Helfen Sie uns, die Seenotrettung besser zu identifizieren"
-	},
-  "contact": {
-    "nous-contacter": "Kontaktiere uns !",
-    "contact-admin": "Administratoren kontaktieren",
-    "nom": "Name",
-    "email": "Email",
-    "message": "Nachricht",
-    "envoyer": "Senden",
-    "request-registered": "Ihre Anfrage wurde berücksichtigt"
-  }
+	}
 }

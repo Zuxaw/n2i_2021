@@ -1,4 +1,7 @@
 {
+	"browsing-data": {
+		"coming-soon": "곧 찾아보기"
+	},
 	"contact": {
 		"contact-admin": "관리자에게 문의",
 		"email": "이메일",
@@ -7,6 +10,9 @@
 		"nom": "이름",
 		"nous-contacter": "문의하기 !",
 		"request-registered": "귀하의 요청이 고려되었습니다"
+	},
+	"edit-data": {
+		"coming-soon": "곧 출시 예정"
 	},
 	"header": {
 		"accueil": "집",
@@ -23,6 +29,36 @@
 	"home": {
 		"enregistrez-vous": "지금 등록하세요 !",
 		"message-accueil": "지금 참여하여 우리의 역사적 유산을 풍요롭게 하십시오. 우리 앱으로 자신만의 구조 모험을 하십시오. 귀하의 노력은 해상 구조에 대한 데이터베이스를 강화하는 데 도움이 됩니다."
+	},
+	"insertion": {
+		"age": "나이",
+		"birthdate": "생일",
+		"birthplace": "출생지",
+		"bnssa-number": "BNSSA 번호",
+		"brand": "상표",
+		"capacity": "생산 능력",
+		"complete-mission-log": "임무 기록 완료",
+		"event": "행사",
+		"event-date": "행사 날",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
 	},
 	"sign-in": {
 		"connexion": "연결",

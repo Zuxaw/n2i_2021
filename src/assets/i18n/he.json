@@ -1,4 +1,7 @@
 {
+	"browsing-data": {
+		"coming-soon": "הגלישה בקרוב"
+	},
 	"contact": {
 		"contact-admin": "צור קשר עם מנהלי מערכת",
 		"email": "דואר אלקטרוני",
@@ -7,6 +10,9 @@
 		"nom": "שם",
 		"nous-contacter": "צור קשר !",
 		"request-registered": "הבקשה שלך נלקחה בחשבון"
+	},
+	"edit-data": {
+		"coming-soon": "בקרוב"
 	},
 	"header": {
 		"accueil": "בית",
@@ -23,6 +29,36 @@
 	"home": {
 		"enregistrez-vous": "הירשם עכשיו !",
 		"message-accueil": "התחברו עכשיו ועזרו לנו להעשיר את המורשת ההיסטורית שלנו. עשה את הרפתקת ההצלה שלך עם האפליקציה שלנו. המאמצים שלך עוזרים לנו להעשיר את מסד הנתונים שלנו בנושאי חילוץ ימי."
+	},
+	"insertion": {
+		"age": "גיל",
+		"birthdate": "תאריך לידה",
+		"birthplace": "מקום לידה",
+		"bnssa-number": "מספר BNSSA",
+		"brand": "מותג",
+		"capacity": "קיבולת",
+		"complete-mission-log": "יומן משימות מלא",
+		"event": "אירוע",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
 	},
 	"sign-in": {
 		"connexion": "חיבור",

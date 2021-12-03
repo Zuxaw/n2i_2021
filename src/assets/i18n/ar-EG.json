@@ -1,4 +1,7 @@
 {
+	"browsing-data": {
+		"coming-soon": "التصفح قريبا"
+	},
 	"contact": {
 		"contact-admin": "اتصل بالمسؤولين",
 		"email": "البريد الإلكتروني",
@@ -7,6 +10,9 @@
 		"nom": "اسم",
 		"nous-contacter": "اتصل بنا !",
 		"request-registered": "لقد تم أخذ طلبك بعين الاعتبار"
+	},
+	"edit-data": {
+		"coming-soon": "قريبا"
 	},
 	"header": {
 		"accueil": "الصفحة الرئيسية",
@@ -23,6 +29,36 @@
 	"home": {
 		"enregistrez-vous": "سجل الان !",
 		"message-accueil": "شارك الآن وساعدنا على إثراء تراثنا التاريخي. اعمل مغامرة الإنقاذ الخاصة بك مع تطبيقنا. تساعدنا جهودك في إثراء قاعدة بياناتنا حول عمليات الإنقاذ البحري."
+	},
+	"insertion": {
+		"age": "عمر",
+		"birthdate": "تاريخ الولادة",
+		"birthplace": "مسقط الرأس",
+		"bnssa-number": "رقم BNSSA",
+		"brand": "علامة تجارية",
+		"capacity": "سعة",
+		"complete-mission-log": "سجل المهمة الكامل",
+		"event": "هدف",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
 	},
 	"sign-in": {
 		"connexion": "صلة",
