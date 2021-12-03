@@ -1,12 +1,12 @@
 <nav class="nav-bar">
     <li (mouseover)="onSelect('home')" (mouseout)="onSelect(null)">
         <a routerLink="home" routerLinkActive="active"><i class="fas fa-home"></i></a>
-        <p *ngIf="selected==='home'" class="description">Accueil</p>
+        <p *ngIf="selected==='home'" class="description">{{ 'header.accueil' | translate }}</p>
     </li>
     <!-- translation module /begins-->
     <li (mouseover)="onSelect('language')" (mouseout)="onSelect(null)" (click)="onSelectTranslation()">
       <a><i class="fas fa-language"></i></a>
-      <p *ngIf="selected==='language'" class="description" >Langage</p>
+      <p *ngIf="selected==='language'" class="description" >{{ 'header.langage' | translate }}</p>
       <p *ngIf="translation_selected" class="description translation">
         <app-translation></app-translation>
       </p>
@@ -14,36 +14,36 @@
   <!-- translation module /ends-->
     <li (mouseover)="onSelect('search')" (mouseout)="onSelect(null)">
         <a routerLink="search" routerLinkActive="active"><i class="fas fa-search"></i></a>
-        <p *ngIf="selected==='search'" class="description">Recherche</p>
+        <p *ngIf="selected==='search'" class="description">{{ 'header.recherche' | translate }}</p>
     </li>
     <li (mouseover)="onSelect('insert')" (mouseout)="onSelect(null)">
         <a routerLink="insert" routerLinkActive="active"><i class="fas fa-plus"></i></a>
-        <p *ngIf="selected==='insert'" class="description">Insertion</p>
+        <p *ngIf="selected==='insert'" class="description">{{ 'header.insertion' | translate }}</p>
     </li>
     <li (mouseover)="onSelect('edit')" (mouseout)="onSelect(null)">
         <a routerLink="edit" routerLinkActive="active"><i class="fas fa-edit"></i></a>
-        <p *ngIf="selected==='edit'" class="description">Modification</p>
+        <p *ngIf="selected==='edit'" class="description">{{ 'header.modification' | translate }}</p>
     </li>
     <li (mouseover)="onSelect('validate')" (mouseout)="onSelect(null)" *ngIf="isAdmin">
         <a routerLink="validate" routerLinkActive="active"><i class="fas fa-check"></i></a>
-        <p *ngIf="selected==='validate'" class="description">Validation</p>
+        <p *ngIf="selected==='validate'" class="description">{{ 'header.validation' | translate }}</p>
     </li>
     <div class="bot">
         <li (mouseover)="onSelect('signIn')" (mouseout)="onSelect(null)" *ngIf="!isAuth">
             <a routerLink="auth/signin" routerLinkActive="active"><i class="fas fa-sign-in-alt"></i></a>
-            <p *ngIf="selected==='signIn'" class="description">Connexion</p>
+            <p *ngIf="selected==='signIn'" class="description">{{ 'header.connexion' | translate }}</p>
         </li>
         <li (mouseover)="onSelect('signUp')" (mouseout)="onSelect(null)" *ngIf="!isAuth">
             <a routerLink="auth/signup" routerLinkActive="active"><i class="fas fa-user-plus"></i></a>
-            <p *ngIf="selected==='signUp'" class="description">Inscription</p>
+            <p *ngIf="selected==='signUp'" class="description">{{ 'header.inscription' | translate }}</p>
         </li>
         <li (mouseover)="onSelect('contact')" (mouseout)="onSelect(null)">
             <a routerLink="contact" routerLinkActive="active"><i class="fas fa-mail-bulk"></i></a>
-            <p *ngIf="selected==='contact'" class="description">Contact</p>
+            <p *ngIf="selected==='contact'" class="description">{{ 'header.contact' | translate }}</p>
         </li>
         <li (mouseover)="onSelect('LogOut')" (mouseout)="onSelect(null)" *ngIf="isAuth">
             <a (click)="onLogOut()"><i class="fas fa-sign-out-alt"></i></a>
-            <p *ngIf="selected==='LogOut'" class="description logout">Deconnection</p>
+            <p *ngIf="selected==='LogOut'" class="description logout">{{ 'header.deconnexion' | translate }}</p>
         </li>
     </div>
 </nav>

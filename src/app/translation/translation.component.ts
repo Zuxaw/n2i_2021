@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-translation',
@@ -7,7 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TranslationComponent implements OnInit {
 
-  constructor() { }
+  languages = [] = [
+    "fr",
+    "en-GB",
+    "es",
+    "de",
+    "cs",
+    "ja",
+    "zh-cn",
+    "ru",
+    "pt",
+    "pl",
+    "vi",
+    "th",
+    "tr",
+    "ro"
+  ]
+
+  constructor(private translate: TranslateService) { }
 
   ngOnInit(): void {
   }
