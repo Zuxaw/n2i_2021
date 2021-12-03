@@ -24,6 +24,7 @@ secourus. La communauté est capable de soumettre des demandes d'insertion / de 
 Notre documentation est segmentée en trois parties pour exposer les rôles de chacun dans l'équipe, les
 idées de conception autour du sujet de la Nuit et les fonctionnalités du site (pages présentes, détails
 des fonctionnalités, les défis sélectionnés...).
+La traduction du site est incomplète sur le module d'insertion. Pour ce dernier, veuillez sélectionner la langue anglaise.
 
 <br>
 
