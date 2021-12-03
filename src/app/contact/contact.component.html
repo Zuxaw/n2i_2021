@@ -1,1 +1,17 @@
-<p>contact works!</p>
+<div class="container">
+  <div class="in">
+		<div class="contact-box">
+			<div class="right" *ngIf="!selected">
+				<h2>Nous contacter</h2>
+				<input required type="text" class="field" placeholder="Votre nom">
+				<input required type="text" class="field" placeholder="Votre mail">
+				<input type="text" class="field" placeholder="Téléphone">
+				<textarea required placeholder="Votre demande" class="field"  style="resize: none;"></textarea>
+				<button class="btn" (click)="onClick()">Envoyer</button>
+			</div>
+      <div class="right" *ngIf="selected">
+				<h2>Votre demande à été pris en compte</h2>
+			</div>
+		</div>
+	</div>
+</div>
