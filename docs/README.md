@@ -4,7 +4,7 @@
 
 <br>
 
-### Lien du projet
+### Lien de l'application Web
 > https://nginx-stks-4wwu2rgz4q-ew.a.run.app/
 ### Documentation
 > Consulter les différents fichiers de documentation réalisés par l'équipe.
