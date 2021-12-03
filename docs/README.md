@@ -31,8 +31,19 @@ des fonctionnalités, les défis sélectionnés...).
 Notre base de données est réalisée sous le modèle NoSQL à l'aide d'un fichier JSON. Ceci nous permet de
 garantir le comportement souhaité de compléter les données au fil du temps. Chaque objet est unique et
 peut ne pas disposer de toutes les informations que l'on peut normalement renseigner.
+> Étant donné qu'elle est mise en ligne sur le service d'hébergement Firebase, le projet utilise une base de données distante et ne peut être simulée localement sans modifier un nombre assez conséquent de lignes de code.
 
 <br>
 
 ### Requêtes
-TODO.
+Pour faire les requêtes, vous pouvez effectuer des requêtes HTTP GET/POST/DELETE à l'URL suivante:
+> https://n2i-2021-a888e-default-rtdb.europe-west1.firebasedatabase.app/\<table\>
+
+<br>
+(remplacer <\table\> par le nom d'une table. Se réferer au schéma ci-dessous)
+
+(Pour plus d'informations, consulter la documentation sur les bases de données Firebase)
+
+<br>
+
+![Schéma de la base de données](https://github.com/Zuxaw/n2i_2021/docs/stks-database-models.png)
