@@ -1,12 +1,15 @@
 <nav class="nav-bar">
   <li (mouseover)="onSelect('home')" (mouseout)="onSelect(null)">
       <a routerLink="home" routerLinkActive="active"><i class="fas fa-home"></i></a>
-      <p *ngIf="selected==='home'" class="description">Home</p>
+      <p *ngIf="selected==='home'" class="description" >Home</p>
   </li>
 <!-- translation module /begins-->
-  <li (mouseover)="onSelect('language')" (mouseout)="onSelect(null)">
+  <li (mouseover)="onSelect('language')" (mouseout)="onSelect(null)" (click)="onSelectTranslation()">
     <a routerLink="language" routerLinkActive="active"><i class="fas fa-language"></i></a>
-    <p *ngIf="selected==='language'" class="description">Language</p>
+    <p *ngIf="selected==='language'" class="description" >Langage</p>
+    <p *ngIf="translation_selected" class="description translation">
+      <app-translation></app-translation>
+    </p>
   </li>
 <!-- translation module /ends-->
   <div class="bot">

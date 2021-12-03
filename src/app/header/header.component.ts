@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth/auth.service';
 import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth'; 
+import 'firebase/compat/auth';
 import { Router } from '@angular/router';
 
 @Component({
@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
   selected: string;
+  translation_selected = false;
   isAuth: boolean;
   constructor(private authService: AuthService,
               private router: Router) {
@@ -18,19 +19,23 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     firebase.auth().onAuthStateChanged(
-      (user) =>  this.isAuth = Boolean(user) 
+      (user) =>  this.isAuth = Boolean(user)
     );
   }
 
   onSelect(name: string){
     this.selected= name;
   }
-  
+
+  onSelectTranslation(){
+    this.translation_selected = !this.translation_selected;
+  }
+
   onLogOut(){
     this.router.navigate(['/home']);
     this.authService.signOutUser();
   }
 
-  
+
 
 }

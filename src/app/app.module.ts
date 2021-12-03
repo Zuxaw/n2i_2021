@@ -15,6 +15,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChatComponent } from './chat/chat.component';
 import { AuthGuardService } from './auth/auth-guard.service';
 import { ProfileComponent } from './profile/profile.component';
+import { TranslationComponent } from './translation/translation.component';
 
 
 // TranslationModule factory tool
@@ -41,7 +42,8 @@ const appRoutes: Routes= [
     HeaderComponent,
     HomeComponent,
     ChatComponent,
-    ProfileComponent
+    ProfileComponent,
+    TranslationComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +53,7 @@ const appRoutes: Routes= [
     ReactiveFormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'fr',
+      defaultLanguage: 'fr-FR',
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,
