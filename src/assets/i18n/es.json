@@ -30,5 +30,14 @@
 		"inscription": "Registrar",
 		"mdp": "Contraseña",
 		"ravi-accueil": "Ayúdanos a identificar mejor el rescate en el mar"
-	}
+	},
+  "contact": {
+    "nous-contacter": "Tu solicitud se ha tenido en cuenta !",
+    "contact-admin": "Contactar con las administradoras",
+    "nom": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "envoyer": "Enviar",
+    "request-registered": "Tu solicitud se ha tenido en cuenta"
+  }
 }
