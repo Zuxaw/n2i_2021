@@ -1,4 +1,7 @@
 {
+	"browsing-data": {
+		"coming-soon": "Σύντομα η περιήγηση"
+	},
 	"contact": {
 		"contact-admin": "Επικοινωνήστε με τους διαχειριστές",
 		"email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
@@ -7,6 +10,9 @@
 		"nom": "Ονομα",
 		"nous-contacter": "Επικοινωνήστε μαζί μας !",
 		"request-registered": "Το αίτημά σας ελήφθη υπόψη"
+	},
+	"edit-data": {
+		"coming-soon": "Ερχομαι συντομα"
 	},
 	"header": {
 		"accueil": "Σπίτι",
@@ -23,6 +29,36 @@
 	"home": {
 		"enregistrez-vous": "Κάνε εγγραφή τώρα !",
 		"message-accueil": "Συμμετάσχετε τώρα και βοηθήστε μας να εμπλουτίσουμε την ιστορική μας κληρονομιά. Δουλέψτε τη δική σας περιπέτεια διάσωσης με την εφαρμογή μας. Οι προσπάθειές σας μας βοηθούν να εμπλουτίσουμε τη βάση δεδομένων μας για τις θαλάσσιες διασώσεις."
+	},
+	"insertion": {
+		"age": "Ηλικία",
+		"birthdate": "Ημερομηνία Γέννησης",
+		"birthplace": "Γενέτειρα",
+		"bnssa-number": "Αριθμός BNSSA",
+		"brand": "Μάρκα",
+		"capacity": "Χωρητικότητα",
+		"complete-mission-log": "Πλήρες αρχείο καταγραφής αποστολής",
+		"event": "Εκδήλωση",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
 	},
 	"sign-in": {
 		"connexion": "Σύνδεση",

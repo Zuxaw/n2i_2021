@@ -1,4 +1,19 @@
 {
+	"browsing-data": {
+		"coming-soon": "Скоро будет просмотр"
+	},
+	"contact": {
+		"contact-admin": "Связаться с администраторами",
+		"email": "Эл. почта",
+		"envoyer": "послать",
+		"message": "Сообщение",
+		"nom": "Имя",
+		"nous-contacter": "Связаться с нами !",
+		"request-registered": "Ваш запрос учтен"
+	},
+	"edit-data": {
+		"coming-soon": "Скоро будет"
+	},
 	"header": {
 		"accueil": "Главная",
 		"connexion": "Войти в систему",
@@ -15,6 +30,36 @@
 		"enregistrez-vous": "Зарегистрируйтесь сейчас !",
 		"message-accueil": "Примите участие прямо сейчас и помогите нам обогатить наше историческое наследие. Создайте свое собственное спасательное приключение с нашим приложением. Ваши усилия помогают нам пополнить нашу базу данных по спасению на море."
 	},
+	"insertion": {
+		"age": "возраст",
+		"birthdate": "Дата рождения",
+		"birthplace": "место рождения",
+		"bnssa-number": "Номер BNSSA",
+		"brand": "марка",
+		"capacity": "Вместимость",
+		"complete-mission-log": "Полный журнал миссии",
+		"event": "Событие",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
 	"sign-in": {
 		"connexion": "соединение",
 		"deja-compte": "Я уже зарегистрирован",
@@ -30,14 +75,5 @@
 		"inscription": "Зарегистрироваться",
 		"mdp": "пароль",
 		"ravi-accueil": "Помогите нам лучше идентифицировать спасательные операции на море"
-	},
-  "contact": {
-    "nous-contacter": "Связаться с нами !",
-    "contact-admin": "Связаться с администраторами",
-    "nom": "Имя",
-    "email": "Эл. почта",
-    "message": "Сообщение",
-    "envoyer": "послать",
-    "request-registered": "Ваш запрос учтен"
-  }
+	}
 }

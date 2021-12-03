@@ -1,4 +1,19 @@
 {
+	"browsing-data": {
+		"coming-soon": "Göz atma çok yakında"
+	},
+	"contact": {
+		"contact-admin": "Yöneticilerle iletişim kurun",
+		"email": "E-mail",
+		"envoyer": "Göndermek",
+		"message": "İleti",
+		"nom": "İsim",
+		"nous-contacter": "Bize Ulaşın !",
+		"request-registered": "Talebiniz dikkate alındı"
+	},
+	"edit-data": {
+		"coming-soon": "Çok yakında"
+	},
 	"header": {
 		"accueil": "Ev",
 		"connexion": "Kayıt olmak",
@@ -15,6 +30,36 @@
 		"enregistrez-vous": "Şimdi üye Ol !",
 		"message-accueil": "Şimdi katılın ve tarihi mirasımızı zenginleştirmemize yardımcı olun. Uygulamamızla kendi kurtarma maceranızda çalışın. Çabalarınız, deniz kurtarmalarıyla ilgili veri tabanımızı zenginleştirmemize yardımcı oluyor."
 	},
+	"insertion": {
+		"age": "Yaş",
+		"birthdate": "Doğum günü",
+		"birthplace": "Doğum yeri",
+		"bnssa-number": "BNSSA numarası",
+		"brand": "Marka",
+		"capacity": "Kapasite",
+		"complete-mission-log": "Görev günlüğünü tamamla",
+		"event": "Etkinlik",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
 	"sign-in": {
 		"connexion": "Bağ",
 		"deja-compte": "ben zaten kayıtlıyım",
@@ -30,14 +75,5 @@
 		"inscription": "Üye olmak",
 		"mdp": "Parola",
 		"ravi-accueil": "Deniz kurtarmayı daha iyi tanımlamamıza yardımcı olun"
-	},
-  "contact": {
-    "nous-contacter": "Bize Ulaşın !",
-    "contact-admin": "Yöneticilerle iletişim kurun",
-    "nom": "İsim",
-    "email": "E-mail",
-    "message": "İleti",
-    "envoyer": "Göndermek",
-    "request-registered": "Talebiniz dikkate alındı"
-  }
+	}
 }
