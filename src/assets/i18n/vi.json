@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "Nhà",
+		"connexion": "Đăng nhập",
+		"contact": "Tiếp xúc",
+		"deconnexion": "Đăng xuất",
+		"inscription": "Đăng ký",
+		"insertion": "Chèn",
+		"langage": "ngôn ngữ",
+		"modification": "Sửa đổi",
+		"recherche": "Trình duyệt",
+		"validation": "Xác nhận"
+	},
+	"home": {
+		"enregistrez-vous": "Đăng ký ngay!",
+		"message-accueil": "Hãy tham gia ngay bây giờ và giúp chúng tôi làm phong phú thêm di sản lịch sử của mình. Thực hiện cuộc phiêu lưu giải cứu của riêng bạn với ứng dụng của chúng tôi. Những nỗ lực của bạn giúp chúng tôi làm phong phú thêm cơ sở dữ liệu về cứu nạn trên biển."
+	},
+	"sign-in": {
+		"connexion": "Kết nối",
+		"deja-compte": "Tôi đã đăng ký rồi",
+		"email": "E-mail",
+		"mdp": "mật khẩu",
+		"pas-de-compte": "Bạn chưa có tài khoản? ",
+		"ravi-revoir": "Rất vui được gặp lại bạn"
+	},
+	"sign-up": {
+		"creer-compte": "Tạo một tài khoản",
+		"deja-compte": "Bạn đã có tài khoản ?",
+		"email": "E-mail",
+		"inscription": "Đăng ký",
+		"mdp": "mật khẩu",
+		"ravi-accueil": "Giúp chúng tôi xác định rõ hơn cứu hộ trên biển"
+	},
+  "contact": {
+    "nous-contacter": "Liên hệ chúng tôi !",
+    "contact-admin": "Liên hệ với quản trị viên",
+    "nom": "Tên",
+    "email": "E-mail",
+    "message": "Thông điệp",
+    "envoyer": "Gửi",
+    "request-registered": "Yêu cầu của bạn đã được tính đến"
+  }
+}

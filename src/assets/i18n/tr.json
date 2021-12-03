@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "Ev",
+		"connexion": "Kayıt olmak",
+		"contact": "Temas",
+		"deconnexion": "Çıkış Yap",
+		"inscription": "Üye olmak",
+		"insertion": "Ekle",
+		"langage": "dil",
+		"modification": "Değişiklik",
+		"recherche": "Tarayıcı",
+		"validation": "onaylama"
+	},
+	"home": {
+		"enregistrez-vous": "Şimdi üye Ol !",
+		"message-accueil": "Şimdi katılın ve tarihi mirasımızı zenginleştirmemize yardımcı olun. Uygulamamızla kendi kurtarma maceranızda çalışın. Çabalarınız, deniz kurtarmalarıyla ilgili veri tabanımızı zenginleştirmemize yardımcı oluyor."
+	},
+	"sign-in": {
+		"connexion": "Bağ",
+		"deja-compte": "ben zaten kayıtlıyım",
+		"email": "E-mail",
+		"mdp": "Parola",
+		"pas-de-compte": "Hesabınız yok mu?",
+		"ravi-revoir": "Seni tekrar görmek güzel"
+	},
+	"sign-up": {
+		"creer-compte": "Bir hesap oluşturun",
+		"deja-compte": "Zaten bir hesabınız var mı?",
+		"email": "E-mail",
+		"inscription": "Üye olmak",
+		"mdp": "Parola",
+		"ravi-accueil": "Deniz kurtarmayı daha iyi tanımlamamıza yardımcı olun"
+	},
+  "contact": {
+    "nous-contacter": "Bize Ulaşın !",
+    "contact-admin": "Yöneticilerle iletişim kurun",
+    "nom": "İsim",
+    "email": "E-mail",
+    "message": "İleti",
+    "envoyer": "Göndermek",
+    "request-registered": "Talebiniz dikkate alındı"
+  }
+}

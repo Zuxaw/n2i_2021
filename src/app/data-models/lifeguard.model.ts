@@ -5,7 +5,7 @@ export interface Lifeguard {
   bnssa_number?: string;
   first_name?: string;
   last_name?: string;
-  birth_date?: Date;
+  birth_date?: string;
   phone_number?: string;
   email_address?: string;
 }

@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "Zuhause",
+		"connexion": "Anmelden",
+		"contact": "Kontakt",
+		"deconnexion": "Ausloggen",
+		"inscription": "Anmelden",
+		"insertion": "Einfügen",
+		"langage": "Sprache",
+		"modification": "Änderung ",
+		"recherche": "Browser",
+		"validation": "Validierung"
+	},
+	"home": {
+		"enregistrez-vous": "Jetzt registrieren !",
+		"message-accueil": "Machen Sie jetzt mit und helfen Sie uns, unser historisches Erbe zu bereichern. Arbeiten Sie Ihr eigenes Rettungsabenteuer mit unserer App. Ihre Bemühungen helfen uns, unsere Datenbank zur Seenotrettung zu bereichern."
+	},
+	"sign-in": {
+		"connexion": "Verbindung",
+		"deja-compte": "Ich bin bereits registriert",
+		"email": "Email",
+		"mdp": "Passwort",
+		"pas-de-compte": "Sie haben kein Konto?",
+		"ravi-revoir": "Schön dich wieder zu sehen"
+	},
+	"sign-up": {
+		"creer-compte": "Ein Konto erstellen",
+		"deja-compte": "Sie haben schon ein Konto ?",
+		"email": "Email",
+		"inscription": "Anmelden",
+		"mdp": "Passwort",
+		"ravi-accueil": "Helfen Sie uns, die Seenotrettung besser zu identifizieren"
+	},
+  "contact": {
+    "nous-contacter": "Kontaktiere uns !",
+    "contact-admin": "Administratoren kontaktieren",
+    "nom": "Name",
+    "email": "Email",
+    "message": "Nachricht",
+    "envoyer": "Senden",
+    "request-registered": "Ihre Anfrage wurde berücksichtigt"
+  }
+}

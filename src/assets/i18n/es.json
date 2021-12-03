@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "Inicio",
+		"connexion": "Conectate",
+		"contact": "Contactar",
+		"deconnexion": "Desconectar",
+		"inscription": "Registrate",
+		"insertion": "Inserción",
+		"langage": "Idioma",
+		"modification": "Modificación",
+		"recherche": "Búsqueda",
+		"validation": "Validación"
+	},
+	"home": {
+		"enregistrez-vous": "¡Registrate!",
+		"message-accueil": "Involúcrate ahora y ayúdanos a enriquecer nuestro patrimonio histórico. Trabaja tu propia aventura de rescate con nuestra aplicación. Tus esfuerzos nos ayudan a enriquecer nuestra base de datos sobre los rescates en el mar."
+	},
+	"sign-in": {
+		"connexion": "Iniciar sesión",
+		"deja-compte": "Ya tengo una cuenta",
+		"email": "Correo electrónico",
+		"mdp": "Contraseña",
+		"pas-de-compte": "¿No tienes cuenta?",
+		"ravi-revoir": "Qué gusto verte de nuevo"
+	},
+	"sign-up": {
+		"creer-compte": "Crear una cuenta",
+		"deja-compte": "¿Ya tienes una cuenta?",
+		"email": "Correo electrónico",
+		"inscription": "Registrar",
+		"mdp": "Contraseña",
+		"ravi-accueil": "Ayúdanos a identificar mejor el rescate en el mar"
+	},
+  "contact": {
+    "nous-contacter": "Tu solicitud se ha tenido en cuenta !",
+    "contact-admin": "Contactar con las administradoras",
+    "nom": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "envoyer": "Enviar",
+    "request-registered": "Tu solicitud se ha tenido en cuenta"
+  }
+}

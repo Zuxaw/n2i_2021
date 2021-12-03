@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "家",
+		"connexion": "登入",
+		"contact": "联系",
+		"deconnexion": "登出",
+		"inscription": "注册",
+		"insertion": "插入",
+		"langage": "语言",
+		"modification": "修改",
+		"recherche": "浏览器",
+		"validation": "验证"
+	},
+	"home": {
+		"enregistrez-vous": "现在注册 ！",
+		"message-accueil": "现在就参与进来，帮助我们丰富我们的历史遗产。使用我们的应用程序开展您自己的救援冒险。您的努力帮助我们丰富我们的海上救援数据库。"
+	},
+	"sign-in": {
+		"connexion": "连接",
+		"deja-compte": "我已经注册了",
+		"email": "电子邮件",
+		"mdp": "密码",
+		"pas-de-compte": "你没有账号？",
+		"ravi-revoir": "很高兴再次见到你"
+	},
+	"sign-up": {
+		"creer-compte": "创建一个帐户",
+		"deja-compte": "你已经有一个账户吗 ?",
+		"email": "电子邮件",
+		"inscription": "注册",
+		"mdp": "密码",
+		"ravi-accueil": "帮助我们更好地识别海上救援"
+	},
+  "contact": {
+    "nous-contacter": "联系我们 ！",
+    "contact-admin": "联系管理员",
+    "nom": "姓名",
+    "email": "电子邮件",
+    "message": "信息",
+    "envoyer": "发送",
+    "request-registered": "您的要求已被考虑"
+  }
+}

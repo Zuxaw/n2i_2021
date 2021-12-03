@@ -38,8 +38,8 @@ const appRoutes: Routes= [
   {path: 'validate', component: ValidationDataComponent},
   {path: 'home', component: HomeComponent},
   {path: 'profile',component: ProfileComponent},
-  {path: ' ', redirectTo: 'home'},
   {path: 'not-found', component: ForOhFourComponent},
+  {path: '', component: HomeComponent },
   {path: '**', redirectTo: 'not-found'}
 ]
 
@@ -68,7 +68,7 @@ const appRoutes: Routes= [
     ReactiveFormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      defaultLanguage: 'fr-FR',
+      defaultLanguage: 'fr',
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,

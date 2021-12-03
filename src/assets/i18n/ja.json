@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "ホーム",
+		"connexion": "サインイン",
+		"contact": "接触",
+		"deconnexion": "ログアウト",
+		"inscription": "サインアップ",
+		"insertion": "インサート",
+		"langage": "言語",
+		"modification": "変形",
+		"recherche": "ブラウザ",
+		"validation": "検証"
+	},
+	"home": {
+		"enregistrez-vous": "今すぐ登録 ！",
+		"message-accueil": "今すぐ参加して、私たちの歴史的遺産を豊かにするのを手伝ってください。私たちのアプリであなた自身の救助の冒険をしてください。あなたの努力は、私たちが海の救助に関するデータベースを充実させるのに役立ちます。"
+	},
+	"sign-in": {
+		"connexion": "接続",
+		"deja-compte": "すでに登録しています",
+		"email": "Eメール",
+		"mdp": "パスワード",
+		"pas-de-compte": "アカウントをお持ちではありませんか？",
+		"ravi-revoir": "またお会いできてうれしいです"
+	},
+	"sign-up": {
+		"creer-compte": "アカウントを作成する",
+		"deja-compte": "あなたはすでにアカウントを持っていますか？",
+		"email": "Eメール",
+		"inscription": "登録",
+		"mdp": "パスワード",
+		"ravi-accueil": "海の救助をよりよく特定するのを手伝ってください"
+	},
+  "contact": {
+    "nous-contacter": "お問い合わせ !",
+    "contact-admin": "管理者に連絡する",
+    "nom": "名前",
+    "email": "メール ",
+    "message": "メッセージ",
+    "envoyer": "送信",
+    "request-registered": "あなたのリクエストは考慮されました"
+  }
+}

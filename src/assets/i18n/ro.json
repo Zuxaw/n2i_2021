@@ -1,0 +1,43 @@
+{
+	"header": {
+		"accueil": "Acasă",
+		"connexion": "Conectare",
+		"contact": "a lua legatura",
+		"deconnexion": "Deconectați-vă",
+		"inscription": "Inscrie-te",
+		"insertion": "Introduce",
+		"langage": "limbă",
+		"modification": "Modificare",
+		"recherche": "Browser",
+		"validation": "validare"
+	},
+	"home": {
+		"enregistrez-vous": "Înregistrează-te acum !",
+		"message-accueil": "Implică-te acum și ajută-ne să ne îmbogățim moștenirea istorică. Lucrează-ți propria aventură de salvare cu aplicația noastră. Eforturile dumneavoastră ne ajută să ne îmbogățim baza de date cu privire la salvarea pe mare."
+	},
+	"sign-in": {
+		"connexion": "Conexiune",
+		"deja-compte": "Sunt deja înregistrat",
+		"email": "E-mail",
+		"mdp": "Parola",
+		"pas-de-compte": "Nu ai cont?",
+		"ravi-revoir": "Îmi pare bine să te revăd"
+	},
+	"sign-up": {
+		"creer-compte": "Creează un cont",
+		"deja-compte": "Deja aveti un cont ?",
+		"email": "E-mail",
+		"inscription": "Inscrie-te",
+		"mdp": "Parola",
+		"ravi-accueil": "Ajută-ne să identificăm mai bine salvarea pe mare"
+	},
+  "contact": {
+    "nous-contacter": "Contactează-ne !",
+    "contact-admin": "Contactați administratorii",
+    "nom": "Nume",
+    "email": "E-mail",
+    "message": "Mesaj",
+    "envoyer": "Trimite",
+    "request-registered": "Solicitarea dvs. a fost luată în considerare"
+  }
+}

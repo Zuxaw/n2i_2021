@@ -2,9 +2,9 @@ export interface People {
   id: string;
   first_name?: string;
   last_name?: string;
-  birthdate?: Date;
+  birthdate?: string;
   birthplace?: string;
   physical_description?: string;
-  missing_since?: Date;
-  found_since?: Date;
+  missing_since?: string;
+  found_since?: string;
 }
