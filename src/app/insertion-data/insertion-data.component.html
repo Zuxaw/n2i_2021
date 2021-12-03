@@ -1,4 +1,27 @@
 <div class="container">
     <p>insertion-data works!</p>
-    <button (click)="onAddAdmin()">add admin</button>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <select name="data" id="data_selection" [(ngModel)]="mod">
+            <option value="boat">Bateau</option>
+            <option value="lifeguard">Sauveteur</option>
+            <option value="people">Personne</option>
+            <option value="people">Événement</option>
+        </select>
+        <div class="boat" *ngIf="mod === 'boat'">
+            <div class="form-group">
+                <label for="brand">Marque</label>
+                <input type="text" class="form-control" id="brand">
+            </div>
+            <div class="form-group">
+                <label for="ref">Référence</label>
+                <input type="text" class="form-control" id="ref">
+            </div>
+            <div class="form-group">
+                <label for="capacity">Capacité</label>
+                <input type="text" class="form-control" id="capacity">
+            </div>
+        </div>
+
+        <button type="submit" class="submit">Soumettre</button>
+    </form>
 </div>
