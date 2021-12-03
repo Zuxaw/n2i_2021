@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "Przeglądanie już wkrótce"
+	},
+	"contact": {
+		"contact-admin": "Skontaktuj się z administratorami",
+		"email": "E-mail",
+		"envoyer": "Wysłać",
+		"message": "Wiadomość",
+		"nom": "Nazwa",
+		"nous-contacter": "Skontaktuj się z nami !",
+		"request-registered": "Twoja prośba została uwzględniona"
+	},
+	"edit-data": {
+		"coming-soon": "Wkrótce"
+	},
+	"header": {
+		"accueil": "Dom",
+		"connexion": "Zaloguj",
+		"contact": "kontakt",
+		"deconnexion": "Wyloguj",
+		"inscription": "Zapisz się",
+		"insertion": "Wstawić",
+		"langage": "jezyk",
+		"modification": "Modyfikacja",
+		"recherche": "Przeglądarka",
+		"validation": "Uprawomocnienie"
+	},
+	"home": {
+		"enregistrez-vous": "Zarejestruj się teraz !",
+		"message-accueil": "Zaangażuj się już teraz i pomóż nam wzbogacić nasze dziedzictwo historyczne. Przeprowadź własną przygodę ratunkową z naszą aplikacją. Wasze starania pomagają nam wzbogacić naszą bazę danych o ratownictwie morskim."
+	},
+	"insertion": {
+		"age": "Wiek",
+		"birthdate": "Data urodzenia",
+		"birthplace": "miejsce urodzenia",
+		"bnssa-number": "Numer BNSSA",
+		"brand": "Marka",
+		"capacity": "Pojemność",
+		"complete-mission-log": "Pełny dziennik misji",
+		"event": "Zdarzenie",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
+	"sign-in": {
+		"connexion": "Połączenie",
+		"deja-compte": "jestem już zarejestrowany",
+		"email": "E-mail",
+		"mdp": "Hasło",
+		"pas-de-compte": "Nie masz konta ?",
+		"ravi-revoir": "Miło cię znowu widzieć"
+	},
+	"sign-up": {
+		"creer-compte": "Utwórz konto",
+		"deja-compte": "Posiadasz już konto ?",
+		"email": "E-mail",
+		"inscription": "Zapisz się",
+		"mdp": "Hasło",
+		"ravi-accueil": "Pomóż nam lepiej zidentyfikować ratownictwo morskie"
+	}
+}

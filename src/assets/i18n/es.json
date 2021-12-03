@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "Navegación próximamente"
+	},
+	"contact": {
+		"contact-admin": "Contactar con las administradoras",
+		"email": "Correo electrónico",
+		"envoyer": "Enviar",
+		"message": "Mensaje",
+		"nom": "Nombre",
+		"nous-contacter": "Tu solicitud se ha tenido en cuenta !",
+		"request-registered": "Tu solicitud se ha tenido en cuenta"
+	},
+	"edit-data": {
+		"coming-soon": "Próximamente"
+	},
+	"header": {
+		"accueil": "Inicio",
+		"connexion": "Conectate",
+		"contact": "Contactar",
+		"deconnexion": "Desconectar",
+		"inscription": "Registrate",
+		"insertion": "Inserción",
+		"langage": "Idioma",
+		"modification": "Modificación",
+		"recherche": "Búsqueda",
+		"validation": "Validación"
+	},
+	"home": {
+		"enregistrez-vous": "¡Registrate!",
+		"message-accueil": "Involúcrate ahora y ayúdanos a enriquecer nuestro patrimonio histórico. Trabaja tu propia aventura de rescate con nuestra aplicación. Tus esfuerzos nos ayudan a enriquecer nuestra base de datos sobre los rescates en el mar."
+	},
+	"insertion": {
+		"age": "años",
+		"birthdate": "Fecha de nacimiento",
+		"birthplace": "Lugar de nacimiento",
+		"bnssa-number": "Número BNSSA",
+		"brand": "marca",
+		"capacity": "Capacidad",
+		"complete-mission-log": "Registro de misión completo",
+		"event": "Evento",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
+	"sign-in": {
+		"connexion": "Iniciar sesión",
+		"deja-compte": "Ya tengo una cuenta",
+		"email": "Correo electrónico",
+		"mdp": "Contraseña",
+		"pas-de-compte": "¿No tienes cuenta?",
+		"ravi-revoir": "Qué gusto verte de nuevo"
+	},
+	"sign-up": {
+		"creer-compte": "Crear una cuenta",
+		"deja-compte": "¿Ya tienes una cuenta?",
+		"email": "Correo electrónico",
+		"inscription": "Registrar",
+		"mdp": "Contraseña",
+		"ravi-accueil": "Ayúdanos a identificar mejor el rescate en el mar"
+	}
+}

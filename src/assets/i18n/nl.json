@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "Binnenkort browsen"
+	},
+	"contact": {
+		"contact-admin": "Neem contact op met beheerders",
+		"email": "E-mail",
+		"envoyer": "Sturen",
+		"message": "Bericht",
+		"nom": "Naam",
+		"nous-contacter": "Neem contact op !",
+		"request-registered": "Uw verzoek is in behandeling genomen"
+	},
+	"edit-data": {
+		"coming-soon": "Komt binnenkort"
+	},
+	"header": {
+		"accueil": "Huis",
+		"connexion": "log in",
+		"contact": "contact",
+		"deconnexion": "Uitloggen",
+		"inscription": "inschrijven",
+		"insertion": "invoegen",
+		"langage": "Taal",
+		"modification": "Wijziging",
+		"recherche": "browser",
+		"validation": "Bevestiging"
+	},
+	"home": {
+		"enregistrez-vous": "Registreer nu !",
+		"message-accueil": "Doe nu mee en help ons ons historisch erfgoed te verrijken. Werk aan je eigen reddingsavontuur met onze app. Uw inspanningen helpen ons om onze database over reddingen op zee te verrijken."
+	},
+	"insertion": {
+		"age": "Leeftijd",
+		"birthdate": "Geboortedatum",
+		"birthplace": "geboorteplaats",
+		"bnssa-number": "BNSSA-nummer",
+		"brand": "Merk",
+		"capacity": "Capaciteit",
+		"complete-mission-log": "Voltooi missielogboek",
+		"event": "Evenement",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
+	"sign-in": {
+		"connexion": "Verbinding",
+		"deja-compte": "Ik ben al ingeschreven",
+		"email": "E-mail",
+		"mdp": "Wachtwoord",
+		"pas-de-compte": "U heeft geen account?",
+		"ravi-revoir": "Fijn om je nog eens te zien"
+	},
+	"sign-up": {
+		"creer-compte": "Account aanmaken",
+		"deja-compte": "Je hebt al een account ?",
+		"email": "E-mail",
+		"inscription": "REGISTREREN",
+		"mdp": "Wachtwoord",
+		"ravi-accueil": "Help ons om redding op zee beter te identificeren"
+	}
+}

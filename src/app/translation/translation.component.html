@@ -1,6 +1,1 @@
-<p>translation works!</p>
-<p>translation works!</p>
-<p>translation works!</p>
-<p>translation works!</p>
-<p>translation works!</p>
-<p>translation works!</p>
+<p *ngFor="let lang of languages" (click)=translate.use(lang)>{{lang}}</p>

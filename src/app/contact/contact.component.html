@@ -1,1 +1,24 @@
-<p>contact works!</p>
+<div class="container">
+  <div class="sign" *ngIf="!selected">
+      <h2>{{ 'contact.nous-contacter' | translate }}</h2>
+      <p>{{ 'contact.contact-admin' | translate }}</p>
+      <form *ngIf="!selected">
+          <div class="form-box" >
+            <label for="Message">{{ 'contact.nom' | translate }}</label>
+    				<input required type="text" class="field">
+            <label for="Message">{{ 'contact.email' | translate }}</label>
+            <input required type="text" class="field">
+          </div>
+          <div class="form-box">
+            <label for="Message">{{ 'contact.message' | translate }}</label>
+            <textarea required class="field"  style="resize: none;"></textarea>
+          </div>
+          <button type="submit" (click)="onClick()">{{ 'contact.envoyer' | translate }}</button>
+      </form>
+  </div>
+  <div class="sign" *ngIf="selected">
+    <div class="form">
+      <h3>{{ 'contact.request-registered' | translate }}</h3>
+    </div>
+  </div>
+</div>

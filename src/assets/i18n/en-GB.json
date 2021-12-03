@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "Browsing coming soon"
+	},
+	"contact": {
+		"contact-admin": "Contact administrators",
+		"email": "E-mail",
+		"envoyer": "Send",
+		"message": "Message",
+		"nom": "Name",
+		"nous-contacter": "Contact us !",
+		"request-registered": "Your request has been taken into account"
+	},
+	"edit-data": {
+		"coming-soon": "Coming soon"
+	},
+	"header": {
+		"accueil": "Home",
+		"connexion": "Sign-In",
+		"contact": "Contact",
+		"deconnexion": "Log-Out",
+		"inscription": "Sign-Up",
+		"insertion": "Insert",
+		"langage": "Language",
+		"modification": "Modification",
+		"recherche": "Browser",
+		"validation": "Validation"
+	},
+	"home": {
+		"enregistrez-vous": "Register now !",
+		"message-accueil": "Get involved now and help us enrich our historical heritage. Work your own rescue adventure with our app. Your efforts help us to enrich our database on sea rescues."
+	},
+	"insertion": {
+		"age": "Age",
+		"birthdate": "Birthdate",
+		"birthplace": "Birthplace",
+		"bnssa-number": "BNSSA number",
+		"brand": "Brand",
+		"capacity": "Capacity",
+		"complete-mission-log": "Complete mission log",
+		"event": "Event",
+		"event-date": "Event date",
+		"event-time": "Event time",
+		"first-name": "First name",
+		"found-date": "Found date",
+		"id-card-number": "ID card number",
+		"identified-people": "Identified people",
+		"last-name": "Last name",
+		"lifeguard": "Lifeguard",
+		"lifeguards-team": "Lifeguards team",
+		"mail": "Mail",
+		"missing-date": "Missing since",
+		"mission-result": "Mission result",
+		"people": "People",
+		"phone-number": "Phone number",
+		"physical-description": "Physical description",
+		"reference": "Reference",
+		"selection-type-donnees": "Select the type of data",
+		"ship": "Ship",
+		"submit": "Submit",
+		"vital-card-number": "Vital card number"
+	},
+	"sign-in": {
+		"connexion": "Connection",
+		"deja-compte": "I'm already registered",
+		"email": "E-mail",
+		"mdp": "Password",
+		"pas-de-compte": "You do not have an account ?",
+		"ravi-revoir": "Nice to see you again"
+	},
+	"sign-up": {
+		"creer-compte": "Create an Account",
+		"deja-compte": "You already have an account ?",
+		"email": "E-mail",
+		"inscription": "Register",
+		"mdp": "Password",
+		"ravi-accueil": "Help us to better identify sea rescue"
+	}
+}

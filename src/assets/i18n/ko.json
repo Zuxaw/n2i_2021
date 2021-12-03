@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "곧 찾아보기"
+	},
+	"contact": {
+		"contact-admin": "관리자에게 문의",
+		"email": "이메일",
+		"envoyer": "보내다",
+		"message": "메시지",
+		"nom": "이름",
+		"nous-contacter": "문의하기 !",
+		"request-registered": "귀하의 요청이 고려되었습니다"
+	},
+	"edit-data": {
+		"coming-soon": "곧 출시 예정"
+	},
+	"header": {
+		"accueil": "집",
+		"connexion": "로그인",
+		"contact": "접촉",
+		"deconnexion": "로그 아웃",
+		"inscription": "가입하기",
+		"insertion": "끼워 넣다",
+		"langage": "언어",
+		"modification": "가감",
+		"recherche": "브라우저",
+		"validation": "확인"
+	},
+	"home": {
+		"enregistrez-vous": "지금 등록하세요 !",
+		"message-accueil": "지금 참여하여 우리의 역사적 유산을 풍요롭게 하십시오. 우리 앱으로 자신만의 구조 모험을 하십시오. 귀하의 노력은 해상 구조에 대한 데이터베이스를 강화하는 데 도움이 됩니다."
+	},
+	"insertion": {
+		"age": "나이",
+		"birthdate": "생일",
+		"birthplace": "출생지",
+		"bnssa-number": "BNSSA 번호",
+		"brand": "상표",
+		"capacity": "생산 능력",
+		"complete-mission-log": "임무 기록 완료",
+		"event": "행사",
+		"event-date": "행사 날",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
+	"sign-in": {
+		"connexion": "연결",
+		"deja-compte": "이미 등록되어 있습니다.",
+		"email": "이메일",
+		"mdp": "암호",
+		"pas-de-compte": "계정이 없으신가요?",
+		"ravi-revoir": "다시 뵈서 좋네요"
+	},
+	"sign-up": {
+		"creer-compte": "계정 만들기",
+		"deja-compte": "이미 계정이 있습니까?",
+		"email": "이메일",
+		"inscription": "레지스터",
+		"mdp": "암호",
+		"ravi-accueil": "해상 구조를 더 잘 식별할 수 있도록 도와주세요."
+	}
+}

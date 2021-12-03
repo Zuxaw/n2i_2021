@@ -1,4 +1,120 @@
 <div class="container">
-    <p>insertion-data works!</p>
-    <button (click)="onAddAdmin()">add admin</button>
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <h2>{{ 'insertion.selection-type-donnees' | translate }}</h2>
+        <select name="data" id="data_selection" [(ngModel)]="mod">
+            <option value="boat">{{ 'insertion.ship' | translate }}</option>
+            <option value="lifeguard">{{ 'insertion.lifeguard' | translate }}</option>
+            <option value="people">{{ 'insertion.people' | translate }}</option>
+            <option value="event">{{ 'insertion.event' | translate }}</option>
+        </select>
+        <div class="boat" *ngIf="mod === 'boat'">
+            <div class="form-group">
+                <label for="brand">{{ 'insertion.brand' | translate }}</label>
+                <input type="text" class="form-control" id="brand">
+            </div>
+            <div class="form-group">
+                <label for="ref">{{ 'insertion.reference' | translate }}</label>
+                <input type="text" class="form-control" id="ref">
+            </div>
+            <div class="form-group">
+                <label for="capacity">{{ 'insertion.capacity' | translate }}</label>
+                <input type="text" class="form-control" id="capacity">
+            </div>
+        </div>
+
+        <div class="lifeguard" *ngIf="mod === 'lifeguard'">
+          <div class="form-group">
+              <label for="national-id-card-number">{{ 'insertion.id-card-number' | translate }}</label>
+              <input type="text" class="form-control" id="national-id-card-number">
+          </div>
+          <div class="form-group">
+              <label for="carte-vitale-number">{{ 'insertion.vital-card-number' | translate }}</label>
+              <input type="text" class="form-control" id="carte-vitale-number">
+          </div>
+          <div class="form-group">
+              <label for="bnssa-number">{{ 'insertion.bnssa-number' | translate }}</label>
+              <input type="text" class="form-control" id="bnssa-number">
+          </div>
+          <div class="form-group">
+              <label for="first-name">{{ 'insertion.first-name' | translate }}</label>
+              <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="form-group">
+              <label for="last-name">{{ 'insertion.last-name' | translate }}</label>
+              <input type="text" class="form-control" id="last-name">
+          </div>
+          <div class="form-group">
+              <label for="age">{{ 'insertion.age' | translate }}</label>
+              <input type="text" class="form-control" id="age">
+          </div>
+          <div class="form-group">
+              <label for="phone-number">{{ 'insertion.phone-number' | translate }}</label>
+              <input type="text" class="form-control" id="phone-number">
+          </div>
+          <div class="form-group">
+              <label for="mail">{{ 'insertion.mail' | translate }}</label>
+              <input type="text" class="form-control" id="mail">
+          </div>
+        </div>
+
+        <div class="boat" *ngIf="mod === 'people'">
+          <div class="form-group">
+            <label for="first-name">{{ 'insertion.first-name' | translate }}</label>
+            <input type="text" class="form-control" id="first-name">
+          </div>
+          <div class="form-group">
+              <label for="last-name">{{ 'insertion.last-name' | translate }}</label>
+              <input type="text" class="form-control" id="last-name">
+          </div>
+          <div class="form-group">
+              <label for="birthdate">{{ 'insertion.birthdate' | translate }}</label>
+              <input type="text" class="form-control" id="birthdate">
+          </div>
+          <div class="form-group">
+              <label for="birthplace">{{ 'insertion.birthplace' | translate }}</label>
+              <input type="text" class="form-control" id="birthplace">
+          </div>
+          <div class="form-group">
+              <label for="physical-description">{{ 'insertion.physical-description' | translate }}</label>
+              <input type="text" class="form-control" id="physical-description">
+          </div>
+          <div class="form-group">
+              <label for="missing-date">{{ 'insertion.missing-date' | translate }}</label>
+              <input type="text" class="form-control" id="missing-date">
+          </div>
+          <div class="form-group">
+              <label for="found-date">{{ 'insertion.found-date' | translate }}</label>
+              <input type="text" class="form-control" id="found-date">
+          </div>
+        </div>
+
+        <div class="boat" *ngIf="mod === 'event'">
+          <div class="form-group">
+              <label for="event-date">{{ 'insertion.event-date' | translate }}</label>
+              <input type="text" class="form-control" id="event-date">
+          </div>
+          <div class="form-group">
+              <label for="event-time">{{ 'insertion.event-time' | translate }}</label>
+              <input type="text" class="form-control" id="event-time">
+          </div>
+          <div class="form-group">
+              <label for="lifeguards-team">{{ 'insertion.lifeguards-team' | translate }}</label>
+              <input type="text" class="form-control" id="lifeguards-team">
+          </div>
+          <div class="form-group">
+              <label for="identified-people">{{ 'insertion.identified-people' | translate }}</label>
+              <input type="text" class="form-control" id="identified-people">
+          </div>
+          <div class="form-group">
+              <label for="mission-result">{{ 'insertion.mission-result' | translate }}</label>
+              <input type="text" class="form-control" id="mission-result">
+          </div>
+          <div class="form-group">
+              <label for="complete-mission-log">{{ 'insertion.complete-mission-log' | translate }}</label>
+              <input type="text" class="form-control" id="complete-mission-log">
+          </div>
+        </div>
+
+        <button type="submit" class="submit" (click)="this.oldMod = this.mod;">{{ 'insertion.submit' | translate }}</button>
+    </form>
 </div>

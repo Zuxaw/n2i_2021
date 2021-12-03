@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "การเรียกดูในเร็ว ๆ นี้"
+	},
+	"contact": {
+		"contact-admin": "ติดต่อผู้ดูแลระบบ",
+		"email": "E-mail",
+		"envoyer": "ส่ง",
+		"message": "ข้อความ",
+		"nom": "ชื่อ",
+		"nous-contacter": "ติดต่อเรา !",
+		"request-registered": "คำขอของคุณได้รับการพิจารณาแล้ว"
+	},
+	"edit-data": {
+		"coming-soon": "เร็ว ๆ นี้"
+	},
+	"header": {
+		"accueil": "บ้าน",
+		"connexion": "เข้าสู่ระบบ",
+		"contact": "ติดต่อ",
+		"deconnexion": "ออกจากระบบ",
+		"inscription": "ลงชื่อ",
+		"insertion": "แทรก",
+		"langage": "ภาษา",
+		"modification": "การแก้ไข",
+		"recherche": "เบราว์เซอร์",
+		"validation": "การตรวจสอบ"
+	},
+	"home": {
+		"enregistrez-vous": "สมัครตอนนี้ !",
+		"message-accueil": "เข้าร่วมตอนนี้และช่วยเราเสริมสร้างมรดกทางประวัติศาสตร์ของเรา ทำงานผจญภัยกู้ภัยของคุณเองด้วยแอพของเรา ความพยายามของคุณช่วยให้เราเพิ่มพูนฐานข้อมูลเกี่ยวกับการช่วยเหลือทางทะเล"
+	},
+	"insertion": {
+		"age": "อายุ",
+		"birthdate": "วันที่เกิด",
+		"birthplace": "บ้านเกิด",
+		"bnssa-number": "หมายเลข BNSA",
+		"brand": "ยี่ห้อ",
+		"capacity": "ความจุ",
+		"complete-mission-log": "บันทึกภารกิจเสร็จสิ้น",
+		"event": "เหตุการณ์",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
+	"sign-in": {
+		"connexion": "สัมพันธ์",
+		"deja-compte": "ฉันลงทะเบียนแล้ว",
+		"email": "E-mail",
+		"mdp": "รหัสผ่าน",
+		"pas-de-compte": "คุณไม่มีบัญชี ?",
+		"ravi-revoir": "ยินดีที่ได้พบคุณอีกครั้ง"
+	},
+	"sign-up": {
+		"creer-compte": "สร้างบัญชี",
+		"deja-compte": "คุณมีบัญชีอยู่แล้ว ?",
+		"email": "E-mail",
+		"inscription": "ลงชื่อ",
+		"mdp": "รหัสผ่าน",
+		"ravi-accueil": "ช่วยเราระบุการช่วยเหลือทางทะเลได้ดียิ่งขึ้น"
+	}
+}

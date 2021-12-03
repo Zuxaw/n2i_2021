@@ -1,0 +1,79 @@
+{
+	"browsing-data": {
+		"coming-soon": "Navigation à venir"
+	},
+	"contact": {
+		"contact-admin": "Contacter les administrateurs",
+		"email": "E-mail",
+		"envoyer": "Envoyer",
+		"message": "Message",
+		"nom": "Nom",
+		"nous-contacter": "Contactez-nous !",
+		"request-registered": "Votre requête a été pris en compte"
+	},
+	"edit-data": {
+		"coming-soon": "arrive bientôt"
+	},
+	"header": {
+		"accueil": "Accueil",
+		"connexion": "Connexion",
+		"contact": "Contact",
+		"deconnexion": "Deconnexion",
+		"inscription": "Inscription",
+		"insertion": "Insertion",
+		"langage": "Langue",
+		"modification": "Modification",
+		"recherche": "Recherche",
+		"validation": "Validation"
+	},
+	"home": {
+		"enregistrez-vous": "Enregistrez-vous",
+		"message-accueil": "Mettez-vous à contribution dès maintenant et aidez-nous à enrichir notre patrimoine historique. Œuvrez votre propre aventure de sauvetage avec notre application. Vos efforts nous aident à enrichir notre base de données sur les sauvetages en mer."
+	},
+	"insertion": {
+		"age": "âge",
+		"birthdate": "Date de naissance",
+		"birthplace": "Lieu de naissance",
+		"bnssa-number": "Numéro BNSSA",
+		"brand": "Marqué",
+		"capacity": "Capacité",
+		"complete-mission-log": "Journal de mission complet",
+		"event": "un événement",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
+	"sign-in": {
+		"connexion": "Connexion",
+		"deja-compte": "J'ai déjà un compte",
+		"email": "Email",
+		"mdp": "Mot de passe",
+		"pas-de-compte": "Vous n'avez pas de compte ?",
+		"ravi-revoir": "Ravi de vous revoir"
+	},
+	"sign-up": {
+		"creer-compte": "Créer un compte",
+		"deja-compte": "Vous avez déjà un compte ?",
+		"email": "Email",
+		"inscription": "Inscription",
+		"mdp": "Mot de passe",
+		"ravi-accueil": "Aidez nous à mieux répertorier le sauvetage en mer"
+	}
+}
