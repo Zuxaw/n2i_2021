@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Subject, Subscription } from 'rxjs';
+import { AuthService } from '../auth/auth.service';
 
 @Component({
   selector: 'app-insertion-data',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InsertionDataComponent implements OnInit {
 
-  constructor() { }
+  admins: any[];
+  adminSubscription: Subscription;
+
+  constructor(private authService: AuthService) { }
 
   ngOnInit(): void {
+    this.adminSubscription = this.authService.adminSubject.subscribe(
+      (admins: any[]) => {
+        this.admins = admins;
+      }
+    );
+    this.authService.emitAdminSubject();
+  }
+
+  onAddAdmin(){
+    this.authService.addAdmin("admin@stks.com");
   }
 
 }
