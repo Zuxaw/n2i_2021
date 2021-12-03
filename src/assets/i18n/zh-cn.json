@@ -1,4 +1,19 @@
 {
+	"browsing-data": {
+		"coming-soon": "浏览即将推出"
+	},
+	"contact": {
+		"contact-admin": "联系管理员",
+		"email": "电子邮件",
+		"envoyer": "发送",
+		"message": "信息",
+		"nom": "姓名",
+		"nous-contacter": "联系我们 ！",
+		"request-registered": "您的要求已被考虑"
+	},
+	"edit-data": {
+		"coming-soon": "快来了"
+	},
 	"header": {
 		"accueil": "家",
 		"connexion": "登入",
@@ -15,6 +30,36 @@
 		"enregistrez-vous": "现在注册 ！",
 		"message-accueil": "现在就参与进来，帮助我们丰富我们的历史遗产。使用我们的应用程序开展您自己的救援冒险。您的努力帮助我们丰富我们的海上救援数据库。"
 	},
+	"insertion": {
+		"age": "年龄",
+		"birthdate": "生日",
+		"birthplace": "出生地",
+		"bnssa-number": "BNSSA号码",
+		"brand": "牌",
+		"capacity": "容量",
+		"complete-mission-log": "完成任务日志",
+		"event": "事件",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
 	"sign-in": {
 		"connexion": "连接",
 		"deja-compte": "我已经注册了",
@@ -30,14 +75,5 @@
 		"inscription": "注册",
 		"mdp": "密码",
 		"ravi-accueil": "帮助我们更好地识别海上救援"
-	},
-  "contact": {
-    "nous-contacter": "联系我们 ！",
-    "contact-admin": "联系管理员",
-    "nom": "姓名",
-    "email": "电子邮件",
-    "message": "信息",
-    "envoyer": "发送",
-    "request-registered": "您的要求已被考虑"
-  }
+	}
 }

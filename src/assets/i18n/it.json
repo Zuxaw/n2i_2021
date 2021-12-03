@@ -1,4 +1,7 @@
 {
+	"browsing-data": {
+		"coming-soon": "Navigazione in arrivo"
+	},
 	"contact": {
 		"contact-admin": "Contatta gli amministratori",
 		"email": "E-mail",
@@ -7,6 +10,9 @@
 		"nom": "Nome",
 		"nous-contacter": "Contattaci !",
 		"request-registered": "La tua richiesta è stata presa in considerazione"
+	},
+	"edit-data": {
+		"coming-soon": "Prossimamente"
 	},
 	"header": {
 		"accueil": "Casa",
@@ -23,6 +29,36 @@
 	"home": {
 		"enregistrez-vous": "Iscriviti ora !",
 		"message-accueil": "Partecipa ora e aiutaci ad arricchire il nostro patrimonio storico. Lavora la tua avventura di salvataggio con la nostra app. I tuoi sforzi ci aiutano ad arricchire il nostro database sui salvataggi in mare."
+	},
+	"insertion": {
+		"age": "età",
+		"birthdate": "Data di nascita",
+		"birthplace": "Luogo di nascita",
+		"bnssa-number": "numero BNSSA",
+		"brand": "Marca",
+		"capacity": "Capacità",
+		"complete-mission-log": "Registro missione completo",
+		"event": "Evento",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
 	},
 	"sign-in": {
 		"connexion": "Connessione",

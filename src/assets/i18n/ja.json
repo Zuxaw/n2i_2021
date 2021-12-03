@@ -1,4 +1,19 @@
 {
+	"browsing-data": {
+		"coming-soon": "ブラウジングはもうすぐ"
+	},
+	"contact": {
+		"contact-admin": "管理者に連絡する",
+		"email": "メール ",
+		"envoyer": "送信",
+		"message": "メッセージ",
+		"nom": "名前",
+		"nous-contacter": "お問い合わせ !",
+		"request-registered": "あなたのリクエストは考慮されました"
+	},
+	"edit-data": {
+		"coming-soon": "近日公開"
+	},
 	"header": {
 		"accueil": "ホーム",
 		"connexion": "サインイン",
@@ -15,6 +30,36 @@
 		"enregistrez-vous": "今すぐ登録 ！",
 		"message-accueil": "今すぐ参加して、私たちの歴史的遺産を豊かにするのを手伝ってください。私たちのアプリであなた自身の救助の冒険をしてください。あなたの努力は、私たちが海の救助に関するデータベースを充実させるのに役立ちます。"
 	},
+	"insertion": {
+		"age": "年齢",
+		"birthdate": "誕生日",
+		"birthplace": "発祥の地",
+		"bnssa-number": "BNSSA番号",
+		"brand": "ブランド",
+		"capacity": "容量",
+		"complete-mission-log": "完全なミッションログ",
+		"event": "イベント",
+		"event-date": "",
+		"event-time": "",
+		"first-name": "",
+		"found-date": "",
+		"id-card-number": "",
+		"identified-people": "",
+		"last-name": "",
+		"lifeguard": "",
+		"lifeguards-team": "",
+		"mail": "",
+		"missing-date": "",
+		"mission-result": "",
+		"people": "",
+		"phone-number": "",
+		"physical-description": "",
+		"reference": "",
+		"selection-type-donnees": "",
+		"ship": "",
+		"submit": "",
+		"vital-card-number": ""
+	},
 	"sign-in": {
 		"connexion": "接続",
 		"deja-compte": "すでに登録しています",
@@ -30,14 +75,5 @@
 		"inscription": "登録",
 		"mdp": "パスワード",
 		"ravi-accueil": "海の救助をよりよく特定するのを手伝ってください"
-	},
-  "contact": {
-    "nous-contacter": "お問い合わせ !",
-    "contact-admin": "管理者に連絡する",
-    "nom": "名前",
-    "email": "メール ",
-    "message": "メッセージ",
-    "envoyer": "送信",
-    "request-registered": "あなたのリクエストは考慮されました"
-  }
+	}
 }

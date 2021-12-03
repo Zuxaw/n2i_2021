@@ -1,4 +1,7 @@
 {
+	"browsing-data": {
+		"coming-soon": "Browsing coming soon"
+	},
 	"contact": {
 		"contact-admin": "Contact administrators",
 		"email": "E-mail",
@@ -7,6 +10,9 @@
 		"nom": "Name",
 		"nous-contacter": "Contact us !",
 		"request-registered": "Your request has been taken into account"
+	},
+	"edit-data": {
+		"coming-soon": "Coming soon"
 	},
 	"header": {
 		"accueil": "Home",
@@ -24,6 +30,36 @@
 		"enregistrez-vous": "Register now !",
 		"message-accueil": "Get involved now and help us enrich our historical heritage. Work your own rescue adventure with our app. Your efforts help us to enrich our database on sea rescues."
 	},
+	"insertion": {
+		"age": "Age",
+		"birthdate": "Birthdate",
+		"birthplace": "Birthplace",
+		"bnssa-number": "BNSSA number",
+		"brand": "Brand",
+		"capacity": "Capacity",
+		"complete-mission-log": "Complete mission log",
+		"event": "Event",
+		"event-date": "Event date",
+		"event-time": "Event time",
+		"first-name": "First name",
+		"found-date": "Found date",
+		"id-card-number": "ID card number",
+		"identified-people": "Identified people",
+		"last-name": "Last name",
+		"lifeguard": "Lifeguard",
+		"lifeguards-team": "Lifeguards team",
+		"mail": "Mail",
+		"missing-date": "Missing since",
+		"mission-result": "Mission result",
+		"people": "People",
+		"phone-number": "Phone number",
+		"physical-description": "Physical description",
+		"reference": "Reference",
+		"selection-type-donnees": "Select the type of data",
+		"ship": "Ship",
+		"submit": "Submit",
+		"vital-card-number": "Vital card number"
+	},
 	"sign-in": {
 		"connexion": "Connection",
 		"deja-compte": "I'm already registered",
@@ -39,14 +75,5 @@
 		"inscription": "Register",
 		"mdp": "Password",
 		"ravi-accueil": "Help us to better identify sea rescue"
-	},
-  "contact": {
-    "nous-contacter": "Contact us !",
-    "contact-admin": "Contact administrators",
-    "nom": "Name",
-    "email": "E-mail",
-    "message": "Message",
-    "envoyer": "Send",
-    "request-registered": "Your request has been taken into account"
-  }
+	}
 }
