@@ -1,0 +1,34 @@
+{
+	"header": {
+		"accueil": "DOMOV",
+		"connexion": "Přihlásit se",
+		"contact": "Kontakt",
+		"deconnexion": "Odhlásit se",
+		"inscription": "Přihlásit se",
+		"insertion": "Vložit",
+		"langage": "jazyk",
+		"modification": "Modifikace",
+		"recherche": "Prohlížeč",
+		"validation": "Validace"
+	},
+	"home": {
+		"enregistrez-vous": "Zaregistrujte se nyní !",
+		"message-accueil": "Zapojte se nyní a pomozte nám obohatit naše historické dědictví. Vypracujte si vlastní záchranné dobrodružství s naší aplikací. Vaše úsilí nám pomáhá obohatit naši databázi o záchranách na moři."
+	},
+	"sign-in": {
+		"connexion": "Spojení",
+		"deja-compte": "Už jsem zaregistrovaný",
+		"email": "E-mailem",
+		"mdp": "Heslo",
+		"pas-de-compte": "Nemáte účet?",
+		"ravi-revoir": "Rád tě zase vidím"
+	},
+	"sign-up": {
+		"creer-compte": "Vytvořit účet",
+		"deja-compte": "Už máte účet?",
+		"email": "E-mailem",
+		"inscription": "Přihlásit se",
+		"mdp": "Heslo",
+		"ravi-accueil": "Pomozte nám lépe identifikovat záchranu na moři"
+	}
+}

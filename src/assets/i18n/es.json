@@ -1,34 +1,34 @@
 {
-  "header":{
-    "accueil": "Inicio",
-    "langage": "Idioma",
-    "recherche": "Búsqueda",
-    "insertion": "Inserción",
-    "modification": "Modificación",
-    "validation": "Validación",
-    "connexion": "Conectarse",
-    "inscription": "Registrarse",
-    "contact": "Contactar",
-    "deconnexion": "Desconectar"
-  },
-  "home":{
-    "message-accueil": "Involúcrate ahora y ayúdanos a enriquecer nuestro patrimonio histórico. Trabaja tu propia aventura de rescate con nuestra aplicación. Tus esfuerzos nos ayudan a enriquecer nuestra base de datos sobre los rescates en el mar.",
-    "enregistrez-vous": "Registrarse"
-  },
-  "sign-in":{
-    "deja-compte": "Ya tengo una cuenta",
-    "ravi-revoir": "Qué gusto verte de nuevo",
-    "email": "Correo electrónico",
-    "mdp": "Contraseña",
-    "connexion": "Iniciar sesión",
-    "pas-de-compte": "¿No tienes cuenta?"
-  },
-  "sign-up":{
-    "creer-compte": "Crear una cuenta",
-    "ravi-accueil": "Ayúdanos a identificar mejor el rescate en el mar",
-    "email": "Correo electrónico",
-    "mdp": "Contraseña",
-    "inscription": "Registrarse",
-    "deja-compte": "Ya tienes una cuenta ?"
-  }
+	"header": {
+		"accueil": "Inicio",
+		"connexion": "Conectate",
+		"contact": "Contactar",
+		"deconnexion": "Desconectar",
+		"inscription": "Registrate",
+		"insertion": "Inserción",
+		"langage": "Idioma",
+		"modification": "Modificación",
+		"recherche": "Búsqueda",
+		"validation": "Validación"
+	},
+	"home": {
+		"enregistrez-vous": "¡Registrate!",
+		"message-accueil": "Involúcrate ahora y ayúdanos a enriquecer nuestro patrimonio histórico. Trabaja tu propia aventura de rescate con nuestra aplicación. Tus esfuerzos nos ayudan a enriquecer nuestra base de datos sobre los rescates en el mar."
+	},
+	"sign-in": {
+		"connexion": "Iniciar sesión",
+		"deja-compte": "Ya tengo una cuenta",
+		"email": "Correo electrónico",
+		"mdp": "Contraseña",
+		"pas-de-compte": "¿No tienes cuenta?",
+		"ravi-revoir": "Qué gusto verte de nuevo"
+	},
+	"sign-up": {
+		"creer-compte": "Crear una cuenta",
+		"deja-compte": "¿Ya tienes una cuenta?",
+		"email": "Correo electrónico",
+		"inscription": "Registrar",
+		"mdp": "Contraseña",
+		"ravi-accueil": "Ayúdanos a identificar mejor el rescate en el mar"
+	}
 }

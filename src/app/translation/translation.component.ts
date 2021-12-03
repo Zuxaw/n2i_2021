@@ -11,7 +11,18 @@ export class TranslationComponent implements OnInit {
   languages = [] = [
     "fr",
     "en-GB",
-    "es"
+    "es",
+    "de",
+    "cs",
+    "ja",
+    "zh-cn",
+    "ru",
+    "pt",
+    "pl",
+    "vi",
+    "th",
+    "tr",
+    "ro"
   ]
 
   constructor(private translate: TranslateService) { }
