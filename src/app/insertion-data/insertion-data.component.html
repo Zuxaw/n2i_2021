@@ -1,6 +1,6 @@
 <div class="container">
-    <p>insertion-data works!</p>
     <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <h2>Sélection du type de données</h2>
         <select name="data" id="data_selection" [(ngModel)]="mod">
             <option value="boat">Bateau</option>
             <option value="lifeguard">Sauveteur</option>
