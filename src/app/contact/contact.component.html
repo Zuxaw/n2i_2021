@@ -5,13 +5,13 @@
       <form *ngIf="!selected">
           <div class="form-box" >
             <label for="Message">Nom</label>
-    				<input required type="text" class="field" placeholder="Votre nom">
+    				<input required type="text" class="field">
             <label for="Message">Mail</label>
-            <input required type="text" class="field" placeholder="Votre mail">
+            <input required type="text" class="field">
           </div>
           <div class="form-box">
             <label for="Message">Message</label>
-            <textarea required placeholder="Votre demande" class="field"  style="resize: none;"></textarea>
+            <textarea required class="field"  style="resize: none;"></textarea>
           </div>
           <button type="submit" (click)="onClick()">Envoyer</button>
       </form>
